@@ -25,7 +25,6 @@ Conditional Field can be used to switch a Field based on other fields values. It
 
 ```php
 
-use Jetcost\Nova\Resource;
 use Laravel\Nova\Fields\Boolean;
 use Laravel\Nova\Fields\FormData;
 use Laravel\Nova\Fields\Hidden;
@@ -74,7 +73,6 @@ ConditionalMany Field can be used to Display Inline a single Field for any Many 
 
 ```php
 
-use Jetcost\Nova\Resource;
 use Laravel\Nova\Fields\Boolean;
 use Laravel\Nova\Fields\FormData;
 use Laravel\Nova\Fields\Hidden;
